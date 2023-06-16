@@ -1,0 +1,33 @@
+div {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    width: 600px;
+}
+
+h1 {
+    color: blue;
+    background-color: aquamarine;
+}
+
+
+.p1 {
+    background-color: rgb(198, 243, 243);
+
+    /* El valor lowercase transforma el texto en minúsculas */
+    text-transform: lowercase;
+}
+
+.p2 {
+    background-color: rgb(216, 248, 201);
+
+    /* El valor uppercase lo transforma en mayúsculas */
+    text-transform: uppercase;
+}
+
+.p3 {
+    background-color: rgb(247, 230, 204);
+
+    /* El valor capitalize lo transforma en mayúsculas */
+    text-transform: capitalize;
+}
